@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+
+    justify-content: space-between;
+    padding: 0 5%;      
+
+}
+html,body{
+    scroll-behavior: smooth;
+    clear: both;
+}
+body{
+    background-color: #212325
+    
+}
+header{
+    position: sticky;
+    top: 0; 
+    width: 100%;
+    padding: 30px 3rem;
+    z-index: 999;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    width: 100%;    
+}
+.all a{
+    color: #868f9b;
+    margin: 5px 10px;
+    font-size: 15px;
+    transition: .4s;
+
+}
+.all a:hover{
+    color: rgb(255, 255, 255);
+}
+#Buy{
+    color: #FF014F !important;
+    border: 1px solid #27292c;
+    border-radius: 6px;
+    padding:  17px 19px;
+    background: linear-gradient(to right bottom, #2a2e33, #212428);
+    font-size: 13px !important;
+    transform: scaleX(-100px);
+    transition:all 10s ease;
+    
+}
+.all #Buy:hover{
+    vertical-align: top;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+    transform: translate(-5px);
+
+}
+#World{
+    margin-top: 100px;
+}
+.top p{
+    color: #b3bdcc;
+    word-spacing: 5px;
+}
+.top h1{
+    color: #fff;
+    margin: 30px 0;
+    font-size: 60px;
+    font-weight: 600;
+}
+.top span{
+    color: #FF014F !important;
+}
+.First-all{
+    width: 100%;
+
+} 
+.entarance{
+    display: flex;
+}
+
+.First-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.bottom{
+    display: flex;
+    margin-top: 150px;
+
+}
+.bottom p{
+    color: #b3bdcc;
+}
+#bottom-left{
+    width: 50%;
+    margin-right: 50px;
+}
+#bottom-right{
+    width: 50%;
+}
+#instagram{
+    margin: 12px 20px 0 20px;
+
+
+}
+#bottom-left i{
+    padding: 20px;
+    color: #fff;
+    font-size: 20px;
+    background: linear-gradient(to right bottom, #2a2e33, #212428);
+    border: 1px solid #2a2e33;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+#bottom-left i:hover{
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+
+#bottom-right img{
+    padding: 20px;
+    background: linear-gradient(to right bottom, #2a2e33, #212428);
+    border: 1px solid #2a2e33;
+    border-radius: 6px;
+    width: 20%;
+}
+#diamond{
+    margin: 12px 20px 0 20px;
+
+}
+
+.First-right{
+    display: flex;
+    justify-content: space-between;
+    width: 45% ;
+    height: 500px;
+    margin-top: 14rem;
+    background-color: #1b1d20;
+    border-radius: 6px ;
+    position: relative;
+
+
+    
+}
+.Y img{
+    width: 88%;
+    position: absolute;
+    top: 29.5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#demo{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 999;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #1b1d20;
+    text-align: center;
+}
+#demos{
+    
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    border-radius: 6px 0 0 6px;
+    background-color: #1b1d20;
+    font-size: 13px;
+    padding: 10px ;
+    cursor: pointer;
+}
+hr{
+    margin: 8rem 0 7rem 0 ;
+    border: 0.5px solid #121415;
+    width: 100%;
+}
+#Second-all{
+    margin-top: 50px;
+}
+#second-top{
+
+}
+#second-top span{
+    color: #FF014F;
+    font-size: 16px;
+}
+#second-top h1{
+    color: #C4CFDE;
+    font-size: 45px;
+}
+#second-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+.box{
+    transition: 0.5s;
+    cursor: pointer;
+    width: 31%;
+    padding: 85px 40px;
+    border-radius: 12px;
+    border: 1px solid #2a2e33;
+    background-color: #1e2022;
+    margin-bottom: 15px;
+    margin-right: 15px ;
+    
+    
+
+}
+.box:hover{
+    background-color: #17191b;
+    margin-top: 0px ;
+}
+.box svg{
+    color: #FF014F;
+    
+}
+.box h2{
+    margin: 30px 0px 15px 0;
+    color: #b3bdcc;
+    font-size: 25px;
+}
+.box p{
+    color: #b3bdcc;
+    font-size: 18px;
+}
+.box i{
+    color: #FF014F;
+    margin-top: 40px;
+    opacity: 0;
+    transition: 0.5s;
+    
+}
+.box:hover i{
+    opacity: 1;
+}
+#third-top{
+    text-align: center !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#third-top span{
+    color: #FF014F;
+    font-size: 18px;
+    
+}
+#third-top h1{
+    color: #b3bdcc;
+    font-size: 40px;
+    font-weight: 500;
+    
+}
